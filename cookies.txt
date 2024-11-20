@@ -1,0 +1,14 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+teeperfect.myshopify.com	TRUE	/	FALSE	1999999999	_tracking_consent	%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22NGRI%22%2C%22reg%22%3A%22%22%2C%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%2C%22consent_id%22%3A%2284DE5587-35f6-4FF9-a86a-42d75d78634d%22%7D
+teeperfect.myshopify.com	TRUE	/	FALSE	1999999999	_landing_page	%2F
+teeperfect.myshopify.com	TRUE	/	FALSE	1999999999	_shopify_country	Nigeria
+teeperfect.myshopify.com	TRUE	/	FALSE	1999999999	preview_theme	1
+teeperfect.myshopify.com	TRUE	/	FALSE	1999999999	_shopify_essential	:AZNKCkk0AAH_0i4fjVYRGtV8V1R5KIIbl15_3enLuKJP8HPjhg-6X8rmMLfPIwBaHgKCazoQr7cFoGvElO4kfz6Hx1MlRWKf-Kvzlicy9IceMJc-pSfIWOsAsWEa:
+teeperfect.myshopify.com	TRUE	/	FALSE	1999999999	_cmp_a	%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
+teeperfect.myshopify.com	TRUE	/	FALSE	1999999999	localization	NG
+teeperfect.myshopify.com	TRUE	/	FALSE	1999999999	_shopify_y	3265c035-9505-433d-8030-247eca9756f7
+teeperfect.myshopify.com	TRUE	/	FALSE	1999999999	_shopify_s	019c1431-684a-436e-abaf-0e630f4b00c7
+teeperfect.myshopify.com	TRUE	/	FALSE	1999999999	keep_alive	4b182002-b44b-4d2a-bca9-9b6c53bc7ed8
+teeperfect.myshopify.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+
