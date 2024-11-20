@@ -3,48 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to [Your Store Name], your one-stop shop for quality products at amazing prices!">
-    <title>O&H Broadview Store  - Dropshipping Store</title>
+    <title>[Your Store Name] - Dropshipping Store</title>
     <style>
+        /* General Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
         }
-        header {
+        header, footer {
             background-color: #333;
             color: #fff;
-            padding: 10px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        nav {
-            display: flex;
-            gap: 15px;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 14px;
-        }
-        .hero {
-            background: url('your-hero-image.jpg') no-repeat center center/cover;
-            height: 300px;
-            color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             text-align: center;
-        }
-        .hero h2 {
-            background: rgba(0, 0, 0, 0.6);
-            padding: 20px;
-            border-radius: 5px;
+            padding: 10px 20px;
         }
         .products {
             display: grid;
@@ -57,18 +29,12 @@
             border: 1px solid #ddd;
             border-radius: 5px;
             overflow: hidden;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         .product-card img {
             width: 100%;
             height: auto;
-        }
-        .product-card h3 {
-            margin: 10px 0;
-        }
-        .product-card p {
-            color: #555;
         }
         .product-card button {
             background-color: #28a745;
@@ -82,119 +48,109 @@
         .product-card button:hover {
             background-color: #218838;
         }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 20px;
+        .cart {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            max-width: 300px;
+        }
+        .cart h3 {
+            margin: 0 0 10px 0;
+        }
+        .cart ul {
+            list-style: none;
+            padding: 0;
+        }
+        .cart ul li {
+            padding: 5px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .cart ul li:last-child {
+            border-bottom: none;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>[Your Store Name]</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#products">Products</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
     </header>
 
-    <div class="hero">
-        <h2>Welcome to [Your Store Name] - Quality Products at Great Prices!</h2>
-    </div>
-
-    <section id="products" class="products">
-        <!-- Product 1 -->
-        <div class="product-card">
+    <div class="products">
+        <div class="product-card" data-name="Product 1" data-price="19.99">
             <img src="images/product1.jpg" alt="Product 1">
             <h3>Product 1</h3>
             <p>$19.99</p>
             <button>Add to Cart</button>
         </div>
-        <!-- Product 2 -->
-        <div class="product-card">
+        <div class="product-card" data-name="Product 2" data-price="29.99">
             <img src="images/product2.jpg" alt="Product 2">
             <h3>Product 2</h3>
             <p>$29.99</p>
             <button>Add to Cart</button>
         </div>
-        <!-- Product 3 -->
-        <div class="product-card">
+        <div class="product-card" data-name="Product 3" data-price="39.99">
             <img src="images/product3.jpg" alt="Product 3">
             <h3>Product 3</h3>
             <p>$39.99</p>
             <button>Add to Cart</button>
         </div>
-        <!-- Product 4 -->
-        <div class="product-card">
-            <img src="images/product4.jpg" alt="Product 4">
-            <h3>Product 4</h3>
-            <p>$24.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <!-- Product 5 -->
-        <div class="product-card">
-            <img src="images/product5.jpg" alt="Product 5">
-            <h3>Product 5</h3>
-            <p>$34.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <!-- Product 6 -->
-        <div class="product-card">
-            <img src="images/product6.jpg" alt="Product 6">
-            <h3>Product 6</h3>
-            <p>$44.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <!-- Product 7 -->
-        <div class="product-card">
-            <img src="images/product7.jpg" alt="Product 7">
-            <h3>Product 7</h3>
-            <p>$15.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <!-- Product 8 -->
-        <div class="product-card">
-            <img src="images/product8.jpg" alt="Product 8">
-            <h3>Product 8</h3>
-            <p>$49.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <!-- Product 9 -->
-        <div class="product-card">
-            <img src="images/product9.jpg" alt="Product 9">
-            <h3>Product 9</h3>
-            <p>$59.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <!-- Product 10 -->
-        <div class="product-card">
-            <img src="images/product10.jpg" alt="Product 10">
-            <h3>Product 10</h3>
-            <p>$18.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <!-- Product 11 -->
-        <div class="product-card">
-            <img src="images/product11.jpg" alt="Product 11">
-            <h3>Product 11</h3>
-            <p>$28.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <!-- Product 12 -->
-        <div class="product-card">
-            <img src="images/product12.jpg" alt="Product 12">
-            <h3>Product 12</h3>
-            <p>$38.99</p>
-            <button>Add to Cart</button>
-        </div>
-    </section>
+        <!-- Add more products here -->
+    </div>
+
+    <div class="cart">
+        <h3>Cart</h3>
+        <ul id="cart-items"></ul>
+        <p><strong>Total:</strong> $<span id="cart-total">0.00</span></p>
+    </div>
 
     <footer>
         <p>&copy; 2024 [Your Store Name]. All Rights Reserved.</p>
     </footer>
+
+    <script>
+        // JavaScript for Cart Functionality
+        const cartItems = [];
+        const cartItemsElement = document.getElementById('cart-items');
+        const cartTotalElement = document.getElementById('cart-total');
+
+        document.querySelectorAll('.product-card button').forEach(button => {
+            button.addEventListener('click', () => {
+                const productCard = button.closest('.product-card');
+                const productName = productCard.dataset.name;
+                const productPrice = parseFloat(productCard.dataset.price);
+
+                // Add the product to the cart array
+                cartItems.push({ name: productName, price: productPrice });
+
+                // Update the cart display
+                updateCartDisplay();
+            });
+        });
+
+        function updateCartDisplay() {
+            // Clear current cart display
+            cartItemsElement.innerHTML = '';
+
+            let total = 0;
+
+            // Add each item to the display
+            cartItems.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = `${item.name} - $${item.price.toFixed(2)}`;
+                cartItemsElement.appendChild(li);
+
+                // Add to total
+                total += item.price;
+            });
+
+            // Update total price
+            cartTotalElement.textContent = total.toFixed(2);
+        }
+    </script>
 </body>
 </html>
